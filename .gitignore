@@ -1,0 +1,39 @@
+## Python
+*.py[cod]
+__pycache__/
+.Python
+
+## Virtualenvs
+venv/
+.venv/
+env/
+ENV/
+.env
+
+## Installer / packaging
+build/
+dist/
+*.egg-info/
+
+## Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+# Don't ignore migrations (they should be committed)
+
+## Pytest / coverage
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+## IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+## OS files
+.DS_Store
+Thumbs.db

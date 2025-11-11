@@ -1,0 +1,10 @@
+# Requirements for the Django backend (inferred from project files)
+# Pin Django to the 3.1.x series since the project settings were generated with Django 3.1.6
+Django==3.1.6
+djangorestframework>=3.11.0
+django-cors-headers>=3.5.0
+Pillow>=8.0.0
+
+# Optional: if you plan to use Django REST Framework token auth explicitly
+# (views import Token from rest_framework.authtoken) enable it by adding
+# 'rest_framework.authtoken' to INSTALLED_APPS in settings.py and run migrations.
