@@ -8,3 +8,5 @@ Pillow>=8.0.0
 # Optional: if you plan to use Django REST Framework token auth explicitly
 # (views import Token from rest_framework.authtoken) enable it by adding
 # 'rest_framework.authtoken' to INSTALLED_APPS in settings.py and run migrations.
+gunicorn>=20.1.0
+whitenoise>=6.0.0
